@@ -119,7 +119,7 @@ module.exports = {
         inline: false,
       })
       .setImage(
-        "https://github.com/akshew/image-hosting/blob/main/cmds.png?raw=true"
+        ""
       );
 
     const embeds = {
