@@ -8,7 +8,7 @@ const emoji = require("../../emoji.js");
 
 module.exports = {
   name: "botinfo",
-  aliases: ["info", "bi", "rabbitinfo"],
+  aliases: ["info", "bi", "BotBuddyInfo"],
   voteOnly: false,
   BotPerms: ["EmbedLinks"],
   run: async (client, message, args) => {
@@ -58,7 +58,7 @@ module.exports = {
       })
       .setThumbnail(client.user.displayAvatarURL({ dynamic: true }))
       .setDescription(
-        `Rare Rabbit - Go Beyond Imagination \n Your Discord server's all-in-one solution. Featuring Antinuke, Automod, Autorole, Welcome, Giveaways, Music, Ticket, Custom-Roles, Extra Owner/Admin and more. Use '?' prefix to empower your server.`
+        `BotBuddy - Go Beyond Imagination \n Your Discord server's all-in-one solution. Featuring Antinuke, Automod, Autorole, Welcome, Giveaways, Music, Ticket, Custom-Roles, Extra Owner/Admin and more. Use '?' prefix to empower your server.`
       )
       .addFields(
         {
@@ -73,7 +73,7 @@ module.exports = {
         }
       )
       .setImage(
-        "https://github.com/akshew/image-hosting/blob/main/rabbit-banner.png?raw=true"
+        ""
       )
       .setFooter({
         text: client.user.username,
@@ -83,18 +83,18 @@ module.exports = {
     const embed2 = createEmbed([
       {
         name: "__Developers__",
-        value: `- [akshat](https://discord.com/users/747321055319949312)\n- [A R J U N](https://discord.com/users/1180995684380459018)`,
+        value: `Kizaki_Dev`,
       },
       {
         name: "__Core Team__",
-        value: `- [bre4d77](https://discord.com/users/1219568207719960578)\n- [Carli](https://discord.com/users/1131610350886846655)\n- [deVu](https://discord.com/users/840545614109343774)`,
+        value: ``,
       },
       {
         name: "__Organisation__",
-        value: `- [Team Kronix](https://discord.gg/teamkronix)`,
+        value: ``,
       },
     ]).setImage(
-      "https://github.com/akshew/image-hosting/blob/main/rabbit-team-banner.png?raw=true"
+      ""
     );
 
     const messageComponent = await message.channel.send({
