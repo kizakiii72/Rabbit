@@ -99,8 +99,8 @@ module.exports = {
     const embed1 = new EmbedBuilder()
       .setColor("#090000")
       .setDescription(
-        "<a:121_Flower:1276444798244360303> [**Welcome to Rabbit! Your ultimate Versatile bot.**](https://discord.gg/teamkronix) \n" + 
-        "<:projects:1254846606734528573> [*Use the dropdown menu below to explore various command categories.*](https://discord.gg/teamkronix)"
+        "<a:121_Flower:1276444798244360303> [**Welcome to BotBuddy! Your ultimate Versatile bot.**](https://discord.gg/) \n" + 
+        "<:projects:1254846606734528573> [*Use the dropdown menu below to explore various command categories.*](https://discord.gg/)"
       )
       .addFields({
         name: "<:Category:1265733980918120563> __Categories__",
