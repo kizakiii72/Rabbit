@@ -5,19 +5,19 @@ module.exports = {
   bot: {
     info: {
       prefix: '?',
-      token: 'MTI0MjQ2MDMzMzAyNTc4NzkyNg.Gz5-zb.2S5q0vTByM3Y3BJKkDlLgWUl7hSYr6BMsoricY',
-      invLink: 'https://discord.com/api/oauth2/authorize?client_id=1242460333025787926&permissions=8&scope=bot%20applications.commands',
-      privacy: 'https://discord.gg/teamkronix',
-      terms: 'https://discord.gg/teamkronix',
+      token: '',
+      invLink: 'https://discord.com/oauth2/authorize?client_id=1354323748429500428&permissions=8&integration_type=0&scope=bot',
+      privacy: 'https://discord.gg/',
+      terms: 'https://discord.gg/',
     },
     presence: {
       name: status,
       type: 'Listening',
-      url: 'https://discord.gg/teamkronix'
+      url: 'https://discord.gg/'
     },
     credits: {
-      developerId: '747321055319949312',
-      supportServer: 'https://discord.gg/teamkronix'
+      developerId: '1003117516668813393',
+      supportServer: 'https://discord.gg/'
     },
   }
 }
